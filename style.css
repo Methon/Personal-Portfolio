@@ -10,9 +10,11 @@ body {
 /* header */
 
 header {
+    background: white;
     font-weight: 700;
     padding-top: 20px;
     box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.144);
+    position: fixed;
 }
 
 .manu ul {
@@ -121,3 +123,8 @@ hr:before { /* Not really supposed to work, but does */
 }
 
 /* Footer */
+
+footer {
+    color: white;
+    background: #0e2431;
+}
