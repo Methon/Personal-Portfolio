@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 100px 100px;
+}
+
+/* header */
+
+header {
+    font-weight: 700;
+    padding-top: 20px;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.144);
+}
+
+.manu ul {
+    margin: 0;
+    padding-top: 0;
+}
+
+.manu ul li {
+    margin-left: 20px;
+    list-style-type: none;
+    float: left;
+}
+
+.manu ul a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.manu ul a:hover {
+    color: salmon;
+}
+
+/* home */
+
+.name {
+    color: #4070f4;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.contact {
+    color: white;
+    background: #4070f4;
+    border: 1px solid #4070f4;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.contact:hover {
+    color: #212529;
+    background: white;
+}
+
+/* about */
+
+h2 {
+    color: #4070f4;
+    font-weight: 700;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #4070f4;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #4070f4;
+    border-width: 0 0 3px 0;
+    border-radius: 20px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.about img {
+    width: 300px;
+    border-radius: 10px;
+}
