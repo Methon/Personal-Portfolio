@@ -93,3 +93,31 @@ hr:before { /* Not really supposed to work, but does */
     width: 300px;
     border-radius: 10px;
 }
+
+.skills img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.work {
+    margin-top: 50px;
+}
+
+.work img {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.work img:hover {
+    transform: scale(1.5);
+    transition: .3s;
+}
+
+/* Contact */
+
+.contact-form {
+    margin-top: 30px;
+}
+
+/* Footer */
